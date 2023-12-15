@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FCFBF9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #077D30;
+    padding: 10px 15px;
+}
+
+header .Logo {
+    font-size: 2rem;
+    font-family: 'Francois One', sans-serif;
+    padding-left: 18px;
+    color: white;
+}
+
+.buttons a {
+    padding: 4px 10px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+.container {
+    padding-right: 25px;
+}
+
+.container input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 7px 0 0 7px;
+    border: 0;
+}
+
+.container button {
+    color: white;
+    background-color: black;
+    position: absolute;
+    border: 0;
+    border-radius: 0 7px 7px 0;
+    padding: 10px;
+}
+
+header .toggle {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 20px;
+    display: none;
+}
+
+/* Navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #077D30;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 4px 0;
+    margin: 0 5px 10px 5px;
+}
+
+nav a {
+    color: white;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* Redes Sociales */
+.redes ul {
+    display: flex;
+    justify-content: center;
+}
+
+.redes ul li {
+    padding: 20px;
+}
+
+.redes ul li a {
+    font-size: 27px;
+    padding: 5px;
+    color: white;
+    background-color: #077D30;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.redes ul li a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: bisque;
+    border-top: 2px solid black;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #077D30;
+    color: white;
+}
+
+/* Tarjetas de productos */
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloProductos {
+    color: #077D30;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 330px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+/* Contenedor del mapa */
+.map-container {
+    display: inline-block;
+    width: 48%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.map-container h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.map-container p {
+    font-size: 16px;
+}
+
+/* Formulario de contacto */
+#formulario-contacto {
+    margin-top: 20px;
+}
+
+#formulario-contacto h2 {
+    font-size: 20px;
+}
+
+#formulario-contacto form {
+    font-size: 16px;
+}
+
+#formulario-contacto label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+#formulario-contacto input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#formulario-contacto input[type="submit"]:hover {
+    background-color: #0056B3;
+}
+/* Estilos para el formulario de contacto */
+#formulario-contacto {
+    margin-top: 20px;
+}
+
+#formulario-contacto h2 {
+    font-size: 20px;
+}
+
+#formulario-contacto form {
+    font-size: 16px;
+    background-color: rgb(223, 173, 91);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+#formulario-contacto label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+#formulario-contacto input[type="submit"] {
+    background-color: rgb(108, 108, 149);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#formulario-contacto input[type="submit"]:hover {
+    background-color: rgb(79, 79, 109);
+}

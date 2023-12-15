@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #077d30;
+}
+
+header .Logo {
+    font-size: 2rem;
+    font-family: 'Francois One', sans-serif;
+    padding-left: 18px;
+    color: white;
+}
+
+.buttons a {
+    padding: 4px 10px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.container {
+    padding-right: 25px;
+}
+
+.container input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 7px 0 0 7px;
+    border: 0;
+}
+
+.container button {
+    color: white;
+    background-color: black;
+    position: absolute;
+    border: 0;
+    border-radius: 0 7px 7px 0;
+    padding: 10px;
+}
+
+header .toggle {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 20px;
+    display: none;
+}
+
+/* Navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #077d30;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-flex;
+    list-style: none;
+    padding: 4px 0;
+    margin: 0 5px 10px 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    transition: .5s;
+}
+
+nav a {
+    color: white;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+/* Redes sociales */
+.redes ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.redes ul li {
+    padding: 20px;
+}
+
+.redes ul li a {
+    font-size: 27px;
+    padding: 5px;
+    color: white;
+    background-color:  #077d30;
+    border-radius: 50%;
+}
+
+.redes ul li a:hover {
+    background-color: black;
+    transition: .5s;
+}
+
+.redes ul li a i {
+    width: 35px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 204, 224);
+    font-size: 20px;
+    border-radius: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Tarjetas */
+.cards {
+    display: flex;
+    background-color: rgb(47, 62, 63);
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cards div {
+    background-color: rgb(40, 141, 67);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(169, 54, 54);
+}
+
+img {
+    width: 70px;
+}
+
+/* Perfil de usuario */
+/* (Agrega aquí tus estilos específicos para el perfil de usuario si es necesario) */

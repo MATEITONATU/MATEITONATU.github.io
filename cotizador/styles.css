@@ -1,0 +1,9 @@
+#cotizador-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #007BFF;
+    text-align: center;
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+}

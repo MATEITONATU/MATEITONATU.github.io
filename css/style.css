@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+main{
+    min-height: 85vh;
+    
+}
+
+footer{
+    border-top: 2px solid rgb(14, 13, 13);
+}
+
+li {
+    list-style: none; }
+
+body header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #077d30;
+}
+    
+header .Logo{
+    font-size: 2rem;
+    font-family: 'Francois One', sans-serif;;
+    padding-left: 18px;
+    color: white;
+}
+    
+.buttons a{
+    padding: 4px 10px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+}
+    
+.container{
+    padding-right: 25px;
+}
+    
+.buttons a:hover{
+    transition: .5s;
+    color: black;
+}
+    
+.container input{
+    width: 500px;
+    padding: 10px;
+    border-radius: 7px 0 0 7px;
+    border: 0;
+}
+    
+.container button{
+    color: white;
+    background-color: black;
+    position: absolute;
+    border: 0;
+    border-radius: 0 7px 7px 0;
+    padding: 10px;
+}
+    
+header .toggle{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 20px;
+    display: none;
+}
+    
+    
+    
+nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: #077d30;
+}
+
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: 4px 0;
+    margin: 0 5px 10px 5px;
+}
+    
+nav a:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+nav a{
+    color: white;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+
+.redes ul {
+    display: flex;
+    justify-content: center;
+}
+
+.redes ul li {
+    padding: 20px;
+}
+
+.redes ul li a {
+    font-size: 27px;
+    padding: 5px;
+    color: white;
+    background-color:  #077d30;
+    border-radius: 50%;
+}
+
+.redes ul li a:hover {
+    background-color: black;
+    transition: .5s;
+}
+
+.redes ul li a i {
+    width: 35px;
+    height: 30px;
+    justify-content: center;
+    text-align: center; 
+}
+  
+.copyright {
+    display: flex;
+    color: white;
+    padding: 10px 0 10px 0;
+    justify-content: center;
+    background-color:  #077d30; 
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloProductos{
+    color: #077d30;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+    
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 330px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+   
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
+    height: 200px; /* Establece la altura fija deseada para todas las imágenes */
+}
+
+
+.card p {
+    font-size: 14px;
+    color: #161616;
+    margin-top: auto; 
+    text-align: center; 
+}
+
+/* perfil de usuario */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #404040;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body,
+.seccion-perfil-usuario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-perfil-usuario .perfil-usuario-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#077d30, transparent);
+    margin-bottom: 1.25rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 12rem;
+    background: linear-gradient(#077d30, transparent);
+    border-radius: 0 0 20px 20px;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
+    margin-right: 1rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar img {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .texto {
+    color: #848484;
+    font-size: 0.95em;
+}
+
+.seccion-perfil-usuario .perfil-usuario-footer,
+.seccion-perfil-usuario .perfil-usuario-bio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.seccion-perfil-usuario .perfil-usuario-bio {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.seccion-perfil-usuario .lista-datos {
+    width: 50%;
+    list-style: none;
+}
+
+.seccion-perfil-usuario .lista-datos li {
+    padding: 5px 0;
+}
+
+.seccion-perfil-usuario .lista-datos li>.icono {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.perfil-usuario-footer {
+    margin-bottom: 200px;
+}
+
+@media (max-width: 750px) {
+    .seccion-perfil-usuario .lista-datos {
+        width: 100%;
+    }
+
+    .seccion-perfil-usuario .perfil-usuario-portada {
+        width: 100%;
+    }
+    .seccion-perfil-usuario .perfil-usuario-body {
+        width: 95%;
+    }
+
+}
